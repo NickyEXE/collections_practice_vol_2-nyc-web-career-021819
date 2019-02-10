@@ -59,3 +59,5 @@ def find_cool(array)
     item[:temperature]=="cool"
   end
 end
+
+def organize_schools(hash)
