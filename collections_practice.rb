@@ -38,3 +38,6 @@ def count_elements(array)
   end
   newarray
 end
+
+def merge_data(nest1,nest2)
+end
