@@ -23,10 +23,10 @@ def count_elements(array)
   hasharray= []
   array.each do |hash|
     hash.each do |key, element|
-      hasharray.any? {|item| item[key]==element}
-      item[element]+=1
-      binding.pry
-    else
+      if hasharray.any? {|item| item[key]==element}
+        item[element]+=1
+        binding.pry
+      else
       hasharray.push(hash.merge!(count: 1))
     end
   end
