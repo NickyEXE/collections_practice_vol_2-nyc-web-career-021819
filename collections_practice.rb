@@ -25,6 +25,7 @@ def count_elements(array)
     hash.each do |key, element|
       if hasharray.any? {|item| item[key]==element}
         item[element]+=1
+      end
         binding.pry
       else
       hasharray.push(hash.merge!(count: 1))
