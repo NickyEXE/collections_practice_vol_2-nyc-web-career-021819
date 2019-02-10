@@ -33,3 +33,4 @@ def count_elements(array)
   end
   hasharray
 end
+end
