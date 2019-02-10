@@ -21,5 +21,6 @@ end
 
 def count_elements(array)
   count = 0
+  array.each do hash
   binding.pry
 end
