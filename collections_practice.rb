@@ -69,4 +69,5 @@ def organize_schools(hash)
       newhash[hash[:location]] = [school]
     end
   end
+  newhash
 end
