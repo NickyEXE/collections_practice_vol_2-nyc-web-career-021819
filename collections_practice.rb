@@ -25,3 +25,5 @@ def count_elements(array)
     hash.each do |key, element|
     end
   end
+  hasharray
+end
