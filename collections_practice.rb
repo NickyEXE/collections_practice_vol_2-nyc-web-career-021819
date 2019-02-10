@@ -24,8 +24,5 @@ def count_elements(array)
   hasharray= []
   array.each do |hash|
       binding.pry
-    else
-      binding.pry
-    end
   end
 end
