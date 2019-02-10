@@ -53,3 +53,8 @@ def merge_data(keys,data)
   end
   keys
 end
+
+def find_cool(array)
+  array.select do |item|
+    binding.pry
+end
