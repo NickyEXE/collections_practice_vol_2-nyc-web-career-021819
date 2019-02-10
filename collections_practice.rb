@@ -29,6 +29,7 @@ def count_elements(array)
       if valueslist.include?(element)
         newarray.each do |hash|
           binding.pry
+        end
       else
         newarray.push({key => element, :count => 1})
         valueslist.push(element)
