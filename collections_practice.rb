@@ -67,5 +67,7 @@ def organize_schools(hash)
       binding.pry
       newhash[hash[:location]].push(school)
     else
+      binding.pry
+      newhash[hash[:location]]
   end
 end
