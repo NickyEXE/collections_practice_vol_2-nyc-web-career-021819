@@ -1,3 +1,5 @@
+require 'pry'
+
 def begins_with_r(array)
   array.all? do |string|
     string.slice(0) == "r"
@@ -17,7 +19,7 @@ def remove_non_strings(array)
   array.select {|element| element.class== String}
 end
 
-def count_elements(array, element)
+def count_elements(array)
   count = 0
-  a
+  binding.pry
 end
