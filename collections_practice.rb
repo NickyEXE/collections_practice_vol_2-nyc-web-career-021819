@@ -29,5 +29,6 @@ def count_elements(array)
       else
       hasharray.push(hash.merge!(count: 1))
     end
+    end
   end
 end
