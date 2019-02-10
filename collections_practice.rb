@@ -34,5 +34,5 @@ def count_elements(array)
         valueslist.push(element)
     end
   end
-  hasharray
+  newarray
 end
