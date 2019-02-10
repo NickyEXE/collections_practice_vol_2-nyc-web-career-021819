@@ -64,10 +64,8 @@ def organize_schools(hash)
   newhash = {}
   hash.each do |school, hash|
     if newhash.key?(hash[:location])
-      binding.pry
       newhash[hash[:location]].push(school)
     else
-      binding.pry
       newhash[hash[:location]] = [school]
     end
   end
