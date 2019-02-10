@@ -1,1 +1,18 @@
-# your code goes here
+def begins_with_r(array)
+  array.all? do |string|
+    string.slice(0) == "r"
+  end
+end
+
+def contain_a (array)
+  array.select {|string| ((string.chars).any? {|letter| letter =="a"})}
+end
+    #return all elements that contain the letter 'a' (FAILED - 1)
+
+def first_wa (array)
+  array.find {|string| string.slice(0,2)=="wa"}
+end
+
+def remove_non_strings(array)
+  array.select {|element| element.class== String}
+end
