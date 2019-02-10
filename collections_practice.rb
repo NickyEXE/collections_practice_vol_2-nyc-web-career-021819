@@ -57,4 +57,5 @@ end
 def find_cool(array)
   array.select do |item|
     binding.pry
+  end
 end
