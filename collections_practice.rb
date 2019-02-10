@@ -46,4 +46,9 @@ def merge_data(keys,data)
         if hashes2[first_name]==firstname
           elements.each do |key, value|
             hashes2[key]=value
+          end
+        end
+      end
+    end
+    keys
 end
