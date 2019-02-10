@@ -20,9 +20,10 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  count = 0
   hasharray= []
   array.each do |hash|
+    hash.each do |key, element|
       binding.pry
+      hasharray.push(hash.merge!(count: 1))
   end
 end
