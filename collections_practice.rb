@@ -32,6 +32,7 @@ def count_elements(array)
       else
         newarray.push({key => element, :count => 1})
         valueslist.push(element)
+      end
     end
   end
   newarray
