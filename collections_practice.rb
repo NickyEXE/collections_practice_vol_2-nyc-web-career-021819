@@ -19,10 +19,18 @@ def remove_non_strings(array)
   array.select {|element| element.class== String}
 end
 
+#[{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}]))
+#.to eq([{:name => "blake", :count => 2}, {:name => "ashley", :count => 1}])
 def count_elements(array)
-  hasharray= []
+  newarray = []
+  valueslist = []
   array.each do |hash|
     hash.each do |key, element|
+      if valueslist.include?(element)
+
+      else
+        newarray.push({key => element, :count => 1})
+        valueslist.push(element)
     end
   end
   hasharray
