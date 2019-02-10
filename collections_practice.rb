@@ -43,6 +43,7 @@ def merge_data(keys,data)
   data.each do |hashes|
     hashes.each do |firstname,elements|
       keys.each do |hashes2|
+        binding.pry
         if hashes2[first_name]==firstname
           elements.each do |key, value|
             hashes2[key]=value
