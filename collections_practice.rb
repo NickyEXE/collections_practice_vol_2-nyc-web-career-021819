@@ -26,4 +26,6 @@ def count_elements(array)
       binding.pry
     else
       binding.pry
+    end
+  end
 end
