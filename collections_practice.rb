@@ -51,4 +51,5 @@ def merge_data(keys,data)
       end
     end
     keys
+  end
 end
