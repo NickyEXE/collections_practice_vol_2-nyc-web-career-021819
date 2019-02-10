@@ -28,7 +28,8 @@ def count_elements(array)
         binding.pry
       else
       hasharray.push(hash.merge!(count: 1))
-    end
+      end
     end
   end
+  hasharray
 end
