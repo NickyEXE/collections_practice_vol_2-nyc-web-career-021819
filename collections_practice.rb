@@ -57,5 +57,6 @@ end
 def find_cool(array)
   array.select do |item|
     binding.pry
+    item[:temperature]=="cool"
   end
 end
